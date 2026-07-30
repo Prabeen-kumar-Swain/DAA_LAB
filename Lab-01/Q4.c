@@ -27,7 +27,7 @@ int main()
     printf("Enter number of disks : ");
     scanf("%d",&n);
 
-    toh(n,'A','B','C');
+    toh(n,'L','M','R');
 
     printf("\nTotal Moves = %lld\n",moves);
 
