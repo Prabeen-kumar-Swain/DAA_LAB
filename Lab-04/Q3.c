@@ -11,21 +11,20 @@ Steps:
 4. Sort S using Merge Sort.
 5. Define a recursive function KSum(S, n, k, index, target).
 6. If k == 1:
-7. Perform Binary Search for target.
-8. If found, return TRUE.
-9. Otherwise, return FALSE.
-10. Otherwise:
-
-11. For every element from index to n-1:
-12. Select the current element.
-13. Calculate:
+        Perform Binary Search for target.
+        If found, return TRUE.
+        Otherwise, return FALSE.
+    Otherwise:
+        For every element from index to n-1:
+        Select the current element.
+7. Calculate:
         newTarget = target - S[i]
         Recursively call:
         KSum(S, n, k-1, i+1, newTarget)
-14. If any recursive call returns TRUE, return TRUE.
-15. If no combination is found, return FALSE.
-16. Display whether k elements with sum T exist.
-17. Stop.
+8. If any recursive call returns TRUE, return TRUE.
+9. If no combination is found, return FALSE.
+10. Display whether k elements with sum T exist.
+11. Stop.
 
 Complexity:
 The required complexity is approximately:
