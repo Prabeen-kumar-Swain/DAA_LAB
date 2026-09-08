@@ -1,3 +1,4 @@
+//[Hitting a moving target]
 #include <stdio.h>
 
 int main()
